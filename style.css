@@ -554,6 +554,11 @@ header .navbar {
           padding: 30px 20px 20px;
      }
 
+     .hero-section .hero-details {
+          justify-content: space-around;
+          text-align: center;
+     }
+
      .hero-section .hero-details :is(.subtitle, .description) .about-section .about-details .contact-section .contact-form {
           max-width: 100%;
      }
@@ -570,6 +575,15 @@ header .navbar {
      .about-section .section-content {
           gap: 70px;
           flex-direction: column-reverse;
+     }
+
+     .about-section .about-details {
+          max-width: 270px;
+     }
+
+     .about-section .about-details p {
+          width: 100%;
+          display: flex;
      }
 
      .about-section .about-image-wrapper .about-image { 
